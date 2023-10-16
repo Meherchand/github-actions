@@ -13,9 +13,6 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>spring_docker</name>
     <description>spring_docker</description>
-    <properties>
-        <maven.compiler.release>17</maven.compiler.release>
-    </properties>
 
     <dependencies>
         <dependency>
@@ -58,15 +55,6 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.11.0</version>
-                <configuration>
-                    <release>17</release>
-                </configuration>
-            </plugin>
-
 
         </plugins>
         <finalName>github-actions</finalName>
