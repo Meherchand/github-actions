@@ -14,7 +14,8 @@
     <name>spring_docker</name>
     <description>spring_docker</description>
     <properties>
-        <java.version>17</java.version>
+            <java.version>1.8</java.version>
+
     </properties>
     <dependencies>
         <dependency>
