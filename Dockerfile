@@ -1,5 +1,5 @@
-#FROM arm64v8/openjdk:17
-FROM openjdk:8
+FROM arm64v8/openjdk:17
+#FROM openjdk:8
 
 WORKDIR /opt
 ENV PORT 8081
